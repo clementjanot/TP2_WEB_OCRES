@@ -106,10 +106,15 @@ h1 {
     padding: 15px 0px 10px 0px;
     border-bottom: 1px solid #e1e6e9;
     margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
 }
 
 .stats-links span, .stats-links a {
     margin-right: 20px;
+    
 }
 
 .stats-links a:last-child {
@@ -121,6 +126,7 @@ h1 {
     font-weight: normal;
     color: #4b5c66;
 }
+
 
 h2 {
     font-size: 20px;
